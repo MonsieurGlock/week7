@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sort_numbers_ascending(int number[], int count)
+void ordering(int number[], int count)
 {
    int temp, i, j, k;
    for (j = 0; j < count; ++j)
@@ -27,9 +27,9 @@ int main()
    scanf("%d", &count);
    printf("\nEnter the numbers one by one:");
    
-   for (i = 0; i < count; ++i)
+   for (i = 0; i < count; ++i){
       scanf("%d", &number[i]);
- 
-   sort_numbers_ascending(number, count);
+   }
+   ordering(number, count);
 }
 
