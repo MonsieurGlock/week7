@@ -22,7 +22,7 @@ void ordering(int number[], int count)
 int main()
 {
    int i, count, number[20];
- 
+   
    printf("How many numbers you are gonna enter:");
    scanf("%d", &count);
    printf("\nEnter the numbers one by one:");

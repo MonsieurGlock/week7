@@ -5,7 +5,7 @@ void findMedian(void);
 void findMean(void);
 int main(){
     int op;
-    printf("** Welcome to Mean , Median and Mode calculator **\nFor Mean please enter 1 / For Median please enter 2 /For Mode please enter 3 : ");
+    printf("** Welcome to Mean , Median and Mode calculator **\nFor Mean please enter 1 / For Median please enter 2 : ");
     scanf("%d",&op);
     if(op == 1){
         findMean();
@@ -29,7 +29,6 @@ void findMean(){
     printf("%.2f",sum);
     
 }
-
 float *enterNumber(int n,float *num){
     printf("Enter the numbers one by one : ");
     int i;
@@ -38,7 +37,6 @@ float *enterNumber(int n,float *num){
     }
     return num;
 }
-
 void findMedian(void){
     printf("How many numbers you are gonna enter : ");
     int n,i,j;
